@@ -7,6 +7,7 @@ import ResetPassword from './pages/ResetPassword';
 import MainPage from './pages/MainPage';
 import SavedSummaries from './pages/SavedSummaries';
 import PrivateRoute from './components/PrivateRoute';
+import ForgotPassword from './pages/ForgotPassword';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/forget-password" element={<ForgetPassword />} />
         <Route path="/reset-password" element={<ResetPassword />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/" element={<Navigate to="/login" />} />
 
         {/* Protected routes */}

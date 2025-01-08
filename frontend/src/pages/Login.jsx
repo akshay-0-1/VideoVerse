@@ -103,6 +103,11 @@ function Login() {
               Register here
             </Link>
           </p>
+          <p className="mt-2 text-gray-600">
+            <Link to="/forgot-password" className="text-indigo-600 hover:underline">
+              Forgot Password?
+            </Link>
+          </p>
         </div>
       </motion.div>
     </div>
